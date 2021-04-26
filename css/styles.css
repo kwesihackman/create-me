@@ -149,3 +149,66 @@ body {
     font-size: larger;
   }
 }
+
+/* Tablet Responsiveness */
+@media (min-width: 577px) and (max-width: 768px) {
+  body {
+    font-size: 1.4rem;
+    background-size: 125vw auto;
+    background-position: 0rem -15rem;
+    overflow-x: hidden;
+  }
+  .title {
+    font-size: 3.5rem;
+  }
+  .hero {
+    width: 60vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 13rem;
+    padding-bottom: 5rem;
+  }
+  .container {
+    padding-top: 0rem;
+  }
+  .button-image {
+    max-width: 55%;
+  }
+  .media {
+    flex-direction: column;
+  }
+  .media-title {
+    font-size: larger;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+    font-size: 1.8rem;
+    background-size: 125vw auto;
+    background-position: 0rem -25rem;
+    overflow-x: hidden;
+  }
+  .title {
+    font-size: 4.5rem;
+  }
+  .hero {
+    width: 60vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 13rem;
+    padding-bottom: 5rem;
+  }
+  .container {
+    padding-top: 0rem;
+  }
+  .button-image {
+    max-width: 55%;
+  }
+  .media {
+    flex-direction: row;
+  }
+  .media-title {
+    font-size: larger;
+  }
+}
